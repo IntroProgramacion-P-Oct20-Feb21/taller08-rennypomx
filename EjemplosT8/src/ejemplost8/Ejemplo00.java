@@ -21,9 +21,9 @@ public class Ejemplo00 {
         double suma = 0;
         double numerador;
         double denominador;
-        for (int i = 2; i <= n; i++) {
-            numerador = Math.pow(2, i);
-            denominador = 2*i;
+        for (int i = 1; i <= n; i++) {
+            numerador = 1;
+            denominador = Math.pow(2, i);
             suma = suma + (numerador/denominador);
                     
         }
